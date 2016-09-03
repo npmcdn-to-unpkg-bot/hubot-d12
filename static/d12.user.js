@@ -60,7 +60,7 @@ function lodashloaded(){
 
     var db = document.createElement('script');
     db.id = 'dive-buddy';
-    db.src = 'https://npmcdn.com/dive-buddy';
+    db.src = 'https://unpkg.com/dive-buddy';
     db.type = 'text/javascript';
     db.async = true;
     db.onload = dbloaded;
